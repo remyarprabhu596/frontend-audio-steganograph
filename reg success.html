@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Successful</title>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .container {
+            margin-top: 200px;
+        }
+        .success-message {
+            font-size: 24px;
+            color: black;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .butt1 {
+            padding: 10px;
+            margin: 0 10px; 
+        }
+        
+        .btn1 {
+            background-image: linear-gradient(to right, darkblue 0%, #00a950 100%);
+            border-radius: 60px;
+            box-sizing: border-box;
+            color: black;
+            display: block;
+            font: 1.125rem 'Oswald', Arial, sans-serif;
+            height: 50px;
+            letter-spacing: 1px;
+            margin: 0;
+            padding: 3px;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 150px;
+            z-index: 2;
+            align-self: flex-end;
+        }
+        
+        .btn1:hover {
+            color: lightskyblue;
+        }
+        
+        .btn1 span {
+            align-items: center;
+            background: lightblue;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .btn1:hover span {
+            background: transparent;
+        }  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="success-message">Registration Successful!</p>
+        <p class="success-message">Please login to use our services.</p>
+        <div class="button-container">
+            <div class="butt1">
+                <a class="btn1" href="#">
+                    <span>Login</span>
+                </a>
+            </div>
+    </div>
+</body>
+</html>

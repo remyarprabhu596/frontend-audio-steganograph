@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	font-family: "Poppins";
+} 
+body {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color:transparent;
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"], input[type="file"] {
+            background-color: #e9ecef;
+            border: none;
+            padding: 10px 8px;
+            font-size: 18px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 200;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="file"]:focus {
+            background-color: #ffffff;
+            box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+            outline: none;
+        }
+
+        button {
+            background-image :  linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            align-items: center;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+      
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center the buttons horizontally */
+        }
+        
+        .butt1 {
+            padding: 10px;
+            margin: 0 10px; /* Add some space between buttons */
+        }
+        
+        .btn1 {
+            background-image: linear-gradient(to right, darkblue 0%, #00a950 100%);
+            border-radius: 60px;
+            box-sizing: border-box;
+            color: black;
+            display: block;
+            font: 1.125rem 'Oswald', Arial, sans-serif;
+            height: 50px;
+            letter-spacing: 1px;
+            margin: 0;
+            padding: 3px;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 150px;
+            z-index: 2;
+            /* Remove bottom and right properties */
+            align-self: flex-end;
+        }
+        
+        .btn1:hover {
+            color: lightskyblue;
+        }
+        
+        .btn1 span {
+            align-items: center;
+            background: lightblue;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            transition: background .5s ease;
+            width: 100%;
+        }
+        
+        .btn1:hover span {
+            background: transparent;
+        }
+        
+        
+        
+        
+        
+        
+        
